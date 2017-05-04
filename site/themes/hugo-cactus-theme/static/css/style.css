@@ -257,10 +257,16 @@ em, i { font-style: italic; }
 	  display: inline-block;
 }
 
-#post-list h2 {
-	font-size: 17px;
+#post-list h1 {
+	font-size: 24px;
+}
+
+#post-list p {
+	font-size: 16px;
 	line-height: 1.5;
 	color: #aaa;
+	font-weight: normal;
+	margin-bottom: 0;
 	max-width: 400px;
 	margin-top: 2px;
 }
@@ -472,7 +478,7 @@ Post List
 
 #post-meta div span.dark {
 	color: #1E2025;
-
+font-weight: bold;
 }
 
 #post-meta div {
