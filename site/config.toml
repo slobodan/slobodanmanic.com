@@ -1,6 +1,5 @@
 # Site settings
 baseurl = "/"
-themesDir = "themes"
 languageCode = "en-us"
 title = "Slobodan Manic"
 theme = "hugo-cactus-theme"
