@@ -1,21 +1,21 @@
 # Site settings
-baseurl = "/"
+baseurl = "https://example.org/"
+themesDir = "../.."
 languageCode = "en-us"
-title = "Slobodan Manic"
-theme = "cactus"
+title = "Hugo Cactus Theme"
+theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-25981913-1"
+googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = ""
+disqusShortname = "spf13"
 
 [params]
-	name = "Slobodan Manic"
+	name = "John Doe"
 	description = "Describe your website"
-	bio = "Web Developer"
+	bio = "Blogger & Programmer"
 	# Enter optionally your twitter account
-	twitter = "slobodanmanic"
-	enableRSS = false
-	theme = "cactus"
+	twitter = "Your Twitter account"
+	enableRSS = true
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
 	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -34,7 +34,7 @@ disqusShortname = ""
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "Web developer with ten years of experience. Data storytelling enthusiast. Hopeless New York Knicks fan."
+	aboutAuthor = "I'm an blogger."
 	tweet = ""
 	share = ""
 	# 404 page
@@ -48,10 +48,7 @@ disqusShortname = ""
 
 # Add additional social link entries underneath
 [social]
-    twitter  = "https://www.twitter.com/slobodanmanic/"
-    github   = "https://www.github.com/slobodan"
-
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    url = "/about/"
+    twitter  = "https://www.twitter.com/"
+    facebook = "https://www.facebook.com/"
+    github   = "https://www.github.com/"
+    dribble  = "https://www.dribbble.com/"
