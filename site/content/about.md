@@ -1,7 +1,7 @@
 +++
 date = "2017-05-04T21:44:49+02:00"
 description = ""
-title = ""
+title = "Slobodan Manic - Web Developer"
 
 +++
 
