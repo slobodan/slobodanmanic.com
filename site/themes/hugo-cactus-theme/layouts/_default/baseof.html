@@ -8,7 +8,7 @@
 <body class="tk-alda">
     {{ partial "nav.html" . }}
     <section id="wrapper">
-        {{ block "profile" . }}{{ end }} {{ block "main" . -}}{{- end }} {{ partial "footer.html" . }}
+        {{ block "profile" . }} {{ end }} {{ block "main" . -}} {{- end }} {{ partial "footer.html" . }}
     </section>
     {{ partial "js.html" . }}
 </body>
